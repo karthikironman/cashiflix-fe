@@ -1,0 +1,444 @@
+.main_about_page_layout{
+    padding: 0 6rem;
+}
+.main_about_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+}
+.about_heading_content{
+    width: 50%;
+}
+.about_heading_content h1{
+    font-size: 4rem;
+
+color: #352E72;
+opacity: 1;
+font-weight: bold;
+}
+.about_heading_content h4{
+    font-size: 3rem;
+    letter-spacing: 1px;
+color: #5382EC;
+opacity: 1;
+}
+.about_img_content{
+    width: 50%;
+}
+.about_img_content img{
+    width: 85%;
+    height:70%;
+    object-fit: cover;
+}
+.btn_join{
+    padding: 10px 35px;
+    outline: none;
+    border: none;
+    background: #C01E29 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1; 
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 2rem;
+    width: 12rem;
+    transition: .5s; 
+}
+.btn_join:hover{
+ border: 1px solid #C01E29;
+ color: #C01E29;
+ border-radius: 25px;
+   background: #fff;
+}
+
+/* ================second section start here========== */
+
+/* established section start here */
+.about_alltop_services{
+    /* padding: 0 6rem; */
+    background: #FAF4F2 0% 0% no-repeat padding-box;
+} 
+
+.established1_main_section{
+opacity: 1;
+width: 100%;
+height: 15rem;
+}
+.established1_main_section h2{
+    position: relative;
+   text-align:center;
+   padding: 2rem 0;
+}
+
+.establish1_sub_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+.established1_boxes{
+ background-image: url("../../images/about/shapsecond.png");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+    opacity: 1; 
+    width: 20rem;
+    height: 10rem;
+    margin-right: 1rem;
+    margin-top: -3rem;
+}
+.established1_super_sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 0 0;
+}
+.established1_img img{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+    background: #fff;
+    border-radius: 50%;
+}
+.established1_content h5{
+    color: #C01E29;
+    font-size: 1.5rem;
+}
+.established1_content h6{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/*============================ story section start here ===================*/
+.about_story_boxes{
+    background: #FAF4F2 0% 0% no-repeat padding-box; 
+    padding-bottom: 5rem;
+}
+.about_story_boxes h2{
+text-align: center;
+line-height: 3px;
+}
+/* .about_story_boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+.stort_no_one{
+    position: relative;
+    background-image: url('../../images/about/story1.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+       opacity: 1; 
+       width: 100%;
+       height: 17rem;
+
+}
+.stort_no_two{
+    position: relative;
+background-image: url('../../images/about/story2.svg');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+   opacity: 1; 
+   width: 100%;
+   height: 17rem;
+   margin: 4rem 0;
+}
+.stort_no_three{
+    position: relative;
+background-image: url('../../images/about/story3.svg');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+   opacity: 1; 
+   width: 100%;
+   height: 17rem;
+}
+/* .stort_no_four{
+
+    position: relative;
+background-image: url('../../images/about/story4.webp');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+   opacity: 1; 
+   width: 70%;
+   height: 17rem;
+} */
+.story_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+
+}
+.story_content h4{
+    padding-top: 0rem;
+    text-align: center;
+}
+.story_content p{
+    text-align: left !important;
+        padding: 0 1rem 0 10rem;
+  
+}
+.story_content2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+
+    }
+    .story_content2 h4{
+        padding-top: 0rem;
+        text-align: left;
+       
+    }
+    .story_content2 p{
+        text-align: left !important;
+        padding: 0 10rem 0 1rem;
+    }
+/* ================team section start here=================== */
+.team_bg_section{
+    padding: 2rem 6rem;
+    background: #EAEDEFD6 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+.team_bg_section h2{
+    text-align: center;
+    color: #4D4D4E;
+text-transform: capitalize;
+opacity: 1;
+}
+.team_bg_section p{
+    text-align: center;
+    padding: 0 0 2rem 0;
+
+}
+.team_top_heading_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.team_boxes_div{
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 2rem;
+}
+.team_boxes_div img{
+    width: 100%;
+    height: 100%;
+}
+.team_content{
+    position:absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.team_content h3{
+  font-size: 1.1rem;
+  text-align: center;
+}
+.team_content p{
+    font-size: .9rem;
+    text-align: center;
+  }
+
+  /* partners section bottom section start here  */
+  .established_main_section123{
+    background: #F2DCDC 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .patener_img{
+      background: #fff;
+      box-shadow: 1px 1px 2px #000007;
+      height: 4rem !important;
+      width: 4rem !important;
+      padding: .2rem;
+      border-radius:5px ;
+  }
+@media screen and (max-width:800px){
+    .main_about_page_layout{
+        padding: 0 1rem;
+    }
+    .main_about_section{
+        width: 100%;
+        height: 50vh;
+        /* display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        width: 100%;
+        height: auto;
+      padding: 1rem 0; */
+    }
+    .about_heading_content{
+        width: 50%;
+    }
+    .about_heading_content h1{
+        font-size: 1.5rem;
+    }
+    .about_heading_content h4{
+        font-size: 1.2rem;
+    }
+
+    .about_img_content img{
+        width: 85%;
+        height:70%;
+        
+    }
+    .btn_join{
+        padding: 10px 35px;
+        margin-top: 1rem;
+        width: 8rem;
+    }
+
+
+/* established section start here */
+.established1_main_section{
+opacity: 1;
+width: 100%;
+height: auto;
+}
+.established1_main_section h2{
+   font-size: 1.2rem;
+}
+.establish1_sub_section{
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+.established1_boxes{
+    width: 45%;
+    height: 12rem;
+    margin: 2rem .5rem 1rem .5rem;
+}
+.established1_img img{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin:0 1rem 0 0;
+}
+.established1_content h6{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: .9rem;
+    padding-top: 1rem;
+}
+/*============================ story section start here ===================*/
+.about_story_boxes{
+    padding-bottom: 5rem;
+}
+.about_story_boxes h2{
+text-align: center;
+line-height: 0px;
+padding-top: 2rem;
+}
+.stort_no_one, .stort_no_three {
+   opacity: 1; 
+   width: 100%;
+   height: 10rem;
+   margin: 0 !important;
+}
+.stort_no_two{
+
+   height: 10rem;
+   margin: 0rem 0;
+}
+.story_content{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    
+    }
+    .story_content h4{
+        padding-top: 0rem;
+        text-align: center;
+        font-size: .8rem;
+        width: 100%;
+    }
+
+    .story_content2{
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+    
+        }
+        .story_content2 h4{
+            padding-top: 0rem;
+            text-align: left;
+            font-size: .8rem;
+        }
+.story_content p{
+    display: none;
+    text-align: center !important;
+    padding: 0 0rem 0 3rem;
+    font-size: .7rem;
+}
+.story_content2 p{
+    display: none;
+    padding: 0rem 1rem 0 .1rem;
+    font-size: .7rem;
+}
+/* ================team section start here=================== */
+.team_bg_section{
+    padding: 1rem 1rem;
+}
+
+.team_bg_section p{
+    padding: 0 0 1rem 0;
+
+}
+.team_top_heading_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.team_boxes_div{
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+.team_boxes_div img{
+    width: 100%;
+    height: 100%;
+}
+.team_content{
+    position:absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.team_content h3{
+  font-size: .8rem;
+  text-align: center;
+}
+.team_content p{
+    font-size: .6rem;
+    text-align: center;
+  }
+}

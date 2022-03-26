@@ -1,0 +1,681 @@
+h2{
+    color: #4D4D4E;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 2rem !important;
+}
+p{
+    color: #707070;
+
+}
+/* .main_container{
+   
+    overflow-x: hidden;
+} */
+#main_header{
+    background-image: url("../../images/BG.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: -5rem;
+}
+.top_banner{
+    padding: 13rem 0 13rem 11rem;
+}
+.top_banner h1{
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+
+}
+.top_banner p{
+    letter-spacing: 0px;
+    color: #FFFFFF; 
+    padding: .5rem 0 2rem 0;
+    font-size: 1.5rem;
+
+}
+.btn_sell{
+    display: inline-block;
+    padding: 10px 60px;
+    outline: none;
+    border: none;
+    background: #C01E29 0% 0% no-repeat padding-box;
+border-radius: 25px;
+opacity: 1;
+margin-right: 1rem;
+color: #fff;
+font-size: .8rem;
+
+}
+.btn_explore{
+    display: inline-block;
+    padding: 10px 60px;
+    outline: none;
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    background: none;
+    font-size: .8rem;
+}
+/* second part css */
+.four_imp_boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+  
+}
+.all_services_nbox{
+    position: relative;
+    width: 12rem;
+    height: 15rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
+margin-right: 1rem;
+}
+.sell_img{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.all_services_nbox h4{
+    text-align: center;
+    font-size: 1.1rem;
+    padding-top: 8rem;
+    letter-spacing: 0px;
+color: #C01E29;
+opacity: 1;
+}
+.all_services_nbox p{
+    text-align: center;
+    padding: .5rem 1rem;
+}
+/* third section why section css here */
+.why_heading{
+    margin:3rem 0 0 0;
+    background: transparent linear-gradient(180deg, #FAF4F2 0%, #FAEEE900 32%, #FAE0D7 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.why_heading h2{
+   text-align: center;
+   padding: 3rem 0;
+   color: #4D4D4E;
+   text-transform: capitalize;
+   opacity: 1;
+}
+.why_chashflix{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+.why_div{
+    position: relative;
+    width: 20rem;
+    height: 23rem;
+    text-align: center;
+    margin: 1.5rem;
+}
+.why_div:hover{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: -1px 3px 21px -2px rgba(0,0,0,0.57);
+-webkit-box-shadow: -1px 3px 21px -2px rgba(0,0,0,0.57);
+-moz-box-shadow: -1px 3px 21px -2px rgba(0,0,0,0.57);
+opacity: 1;
+}
+.why_imgs{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8rem; 
+    height: 8rem;
+
+}
+.why_div h3{
+    padding-top: 10rem;
+    font-size: 1.5rem;
+
+}
+.why_div p{
+  padding: .5rem 1rem;
+
+}
+
+ /* ==================how to sell on chashflix section here -==============*/
+ .hoeto_sell_heading{
+    background: #EAEDEFD6 0% 0% no-repeat padding-box;
+    opacity: 1;
+ }
+ .hoeto_sell_heading h2{
+    text-align: center;
+    padding: 3rem 0;
+    color: #4D4D4E;
+    text-transform: capitalize;
+    opacity: 1;
+ }
+ .how_to_sell{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     /* padding: 0 11rem; */
+
+ }
+ .sell_process1 {
+     position: relative;
+     margin: 1rem;
+ }
+ .sell_process1 img{
+    margin: 1rem 0rem;
+   /* border: 1px solid red; */
+    width: 12rem;
+    height: 25rem;
+  
+
+}
+ .sell_content{
+     position: absolute;
+     top: 70%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 100%;
+     height: 10rem;
+     /* border: 1px solid red; */
+     padding: 0 2rem;
+  
+ }
+ .sell_content h5{
+    text-align: center;
+    font: normal normal 600 25px/38px Poppins;
+    letter-spacing: 0px;
+    color: #C01E29;
+    text-transform: capitalize;
+    opacity: 1;
+ font-size: 1rem;  
+}
+.sell_content p{
+    text-align: center;
+    font: normal normal medium 17px/26px Poppins;
+    letter-spacing: 0px;
+    color: #818286;
+    opacity: 1;
+  padding:0 .5rem;
+       
+   }
+ /* .sell_imgs{
+     width: 15rem;
+     height: 22rem;
+     
+ } */
+ @media screen and (max-width:920px){
+    .how_to_sell{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+        flex-wrap: wrap;
+   
+    }
+    .sell_process1 img{
+        margin: 0rem 0rem;
+        width: 100%;
+        height: 25rem;
+      
+    
+    }
+   
+ }
+
+ /* blog section start here */
+ .blog_section{
+     width: 100%;
+    background: #FAF4F2 0% 0% no-repeat padding-box;
+opacity: 1; 
+ }
+ .blog_section h2{
+    text-align: center;
+    padding: 3rem 0 1rem 0;
+    color: #4D4D4E;
+    text-transform: capitalize;
+    opacity: 1;
+ }
+ .blog_section p{
+    text-align: center;
+    color: #4D4D4E;
+   
+ }
+ .about_blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 6rem;
+ }
+ .blog_process1{
+    width: 50%;
+    height: 20rem;
+}
+ .blog_process1 iframe{
+     width: 100%;
+     height: 22.5rem;
+     /* border: 1px solid red; */
+     object-fit: cover;
+     border-radius: 10px;
+ }
+ .blog_process2{
+     width: 50%;
+     height: 20rem;
+     display: flex;
+     flex-direction: column;
+ }
+ .blog_process2 img{
+    width:100%;
+    height: 11rem;
+    border-radius: 15px;
+    /* border: 1px solid red; */
+    object-fit: cover;
+    margin-bottom: .5rem;
+}
+ /* feedback section start here */
+
+ .main_div_client{
+     margin: 0rem 0 0 0;
+     width: 100%;
+     background: #FAF4F2 0% 0% no-repeat padding-box;
+ opacity: 1; 
+ padding-bottom: 5rem;
+ }
+ .client_feedback{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 2rem 0 3rem 0;
+     text-align: center;
+   
+ }
+ .client_feedback p{
+    text-align: center;
+   padding-top: .5rem;
+    width: 100%;
+}
+.client_heading{
+    position: relative;
+    width: 40%;
+}
+ .client_heading h2{
+position: relative;
+     text-align: center;
+ }
+ /* .client_heading h2::after{
+     position: absolute;
+     bottom: -30%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+  content: " ";
+   background: #C01E29 0% 0% no-repeat padding-box;
+   height: .3rem;
+   width:58%;
+   display: block;
+   border-radius: 50px;
+ } */
+ .btn_read_more{
+     padding: 10px 25px;
+     font-size: .8rem;
+     outline: none;
+    border: none;
+    background: #C01E29 0% 0% no-repeat padding-box;
+border-radius: 12px;
+opacity: 1; 
+color: #fff;
+width: 8rem;
+ }
+ .man_feedback_upbox{
+    height: 20rem;
+    width: 85%;
+    background: #EFEFFE 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+margin: 0 auto;
+
+ }
+ .client_feedback_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+ }
+ .client_img img{
+     width: 20rem;
+     height: 20rem;
+     object-fit: cover;
+ }
+ .feedback_comment{
+     width: 60%;
+     margin-left: .5rem;
+ }
+ .feedback_comment p{
+    width: 80%;
+}
+.font_weight_bold{
+    font-weight: bold;
+}
+
+/* established section start here */
+
+.established_main_section{
+    background: #EAEDEFD6 0% 0% no-repeat padding-box;
+opacity: 1;
+width: 100%;
+height: 22rem;
+}
+.established_main_section h2{
+    position: relative;
+   text-align:center;
+   padding: 2rem 0;
+}
+/* .established_main_section h2::after{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ content: " ";
+  background: #C01E29 0% 0% no-repeat padding-box;
+  height: .3rem;
+  width:37%;
+  display: block;
+  border-radius: 50px;
+} */
+.establish_sub_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+.established_boxes{
+    background: #F9F9FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 50px 76px #0000000D;
+    border-radius: 100px 8px 101px 8px;
+    opacity: 1; 
+    width: 20rem;
+    height: 10rem;
+    margin-right: 1rem;
+}
+.established_super_sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0 0 0;
+}
+.established_img img{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+.established_content h5{
+    color: #C01E29;
+    font-size: 1.5rem;
+}
+.established_content h6{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+/* home page last conatct us page */
+.contact_us123 {
+    /* background-image: url("../../images/wave1.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+ /* height: 22rem;
+  width:100%; */
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 22rem;
+  background: #fff;
+  box-shadow: 0px 50px 76px #0000000D;
+  width: 80%;
+  margin: 0 auto;
+ 
+}
+.send_email_section{
+    padding: 20rem 0;
+   
+}
+.contact_img{
+    padding: 20rem 0;
+}
+.contact_img img{
+    width: 15rem;
+    height: 15rem;
+}
+@media screen and (max-width:800px){
+    h2{
+        
+        font-size: 1.4rem !important;
+        font-weight: bold !important;
+    }
+    .main_container{
+   
+    overflow-x: hidden;
+}
+#main_header{
+    margin-top: -5rem;
+}
+    .top_banner{
+        padding: 7rem 0 7rem 2rem;
+    } 
+    .top_banner h1{
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    .top_banner p{
+        padding: .5rem 0 2rem 0;
+        font-size: 1.2rem;
+    
+    }
+    .btn_sell{
+        display: inline-block;
+        padding: 10px 40px;
+        outline: none;
+        border: none;
+        background: #C01E29 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+    margin-right: 1rem;
+    color: #fff;
+    font-size: .8rem;
+    
+    }
+    .btn_explore{
+        display: inline-block;
+        padding: 10px 40px;
+        outline: none;
+        border: none;
+        border: 1px solid #fff;
+        border-radius: 25px;
+        color: #fff;
+        background: none;
+        font-size: .8rem;
+    }
+    /* second part css */
+.four_imp_boxes{
+    flex-wrap: wrap;
+    margin-top:2rem;
+  
+}
+.all_services_nbox{
+    width:100%;
+    height: 18rem;
+margin-right: 0rem;
+margin-bottom: 1rem;
+}
+
+
+
+
+ /* blog section start here */
+ .blog_section {
+     overflow: hidden;
+ }
+.blog_section p{
+   padding: 0 1rem;
+  
+}
+.about_blog{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap !important;
+   padding: 2rem 1rem !important;
+}
+.blog_process1{
+   width: 100% !important;
+   height: 20rem;
+}
+.blog_process1 iframe{
+    width: 100% !important;
+    height: 22.5rem;
+    /* border: 1px solid red; */
+    object-fit: cover;
+    border-radius: 10px;
+}
+.blog_process2{
+    width: 100%;
+    margin-top: 4rem;
+}
+.blog_process2 img{
+   width:100%;
+   height: 11rem;
+   border-radius: 15px;
+   /* border: 1px solid red; */
+   object-fit: cover;
+   margin-bottom: .5rem;
+}
+/* feedback section start here */
+
+.main_div_client{
+ 
+    width: 100%;
+padding-bottom: 5rem;
+}
+.client_feedback{
+    padding: 2rem 0 2rem 0;
+  
+}
+.client_feedback p{
+   text-align: center;
+  padding-top: .5rem;
+   width: 100%;
+}
+.client_heading{
+   width: 100%;
+}
+
+/* .client_heading h2::after{
+    bottom: -35%;
+  height: .3rem;
+  width:65%;
+} */
+
+.man_feedback_upbox{
+    height: auto;
+    width: 100%;
+    background: #EFEFFE 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+margin: 0 auto;
+
+ }
+ .client_feedback_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+  
+ }
+ .client_img img{
+     width: 12rem;
+     height: auto;
+     object-fit: cover;
+     margin-top: 1rem;
+ }
+ .feedback_comment{
+    width: 100%;
+    margin-left: 1rem;
+}
+.feedback_comment p{
+    text-align: center;
+    width: 100%;
+    padding:.5rem  .5rem 0 .5rem;
+}
+.feedback_comment h6{
+    text-align: center;
+    width: 100%;
+    padding:.5rem  .5rem 0 0;
+}
+
+/* established section start here */
+
+.established_main_section{
+    background: #EAEDEFD6 0% 0% no-repeat padding-box;
+opacity: 1;
+width: 100%;
+height: auto;
+}
+.established_main_section h2{
+   font-size: 1.2rem;
+}
+/* .established_main_section h2::after{
+  height: .3rem;
+  width:80%;
+} */
+.establish_sub_section{
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+.established_boxes{
+    border-radius: 80px 8px 81px 8px;
+    width: 45%;
+    height: 12rem;
+    margin: 0 .5rem 1rem .5rem;
+}
+.established_img img{
+    width: 3rem;
+    height: 3rem;
+    margin:0 1rem;
+}
+.established_content h5{
+    color: #C01E29;
+    font-size: 1.3rem;
+}
+.established_content h6{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: .9rem;
+}
+}

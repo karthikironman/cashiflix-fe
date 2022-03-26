@@ -1,0 +1,200 @@
+/* why join section start here */
+.why_join_section{
+    background: #FAF4F2 0% 0% no-repeat padding-box;
+    padding: 5rem 6rem;
+}
+.why_join_content{
+    position: relative;
+}
+.why_join_content h2{
+    text-align: center;
+    padding-bottom: 8rem;
+
+}
+.why_join_content p{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 70%;
+    font-size: 1.5rem;
+}
+/* ================team section start here=================== */
+.team_bg_section1{
+    padding: 2rem 6rem;
+    background: #EAEDEFD6 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+.team_bg_section1 h2{
+    text-align: center;
+    color: #4D4D4E;
+text-transform: capitalize;
+opacity: 1;
+padding-bottom: 2rem;
+}
+.team_top_heading_section1{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.team_boxes_div1{
+    position: relative;
+    /* width: 20rem;
+    height: 20rem; */
+    margin: 1rem;
+}
+.team_boxes_div1 img{
+    width:20rem;
+    height: 20rem;
+ 
+}
+
+/* =============perk and benifits section start here========== */
+.main_perks_section{
+    padding: 2rem 6rem;
+}
+.main_perks_section h2{
+   text-align: center;
+   padding-bottom: 2rem;
+}
+.perks_benifits_div{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.benefits_images_div img{
+    width: 8rem;
+    height: 8rem;
+}
+.benefits_images_div p{
+text-align: center;
+}
+/* ===============opening section start here ===========*/
+.opening_top_section{
+    padding: 2rem 6rem;
+    background: #FAF4F2 0% 0% no-repeat padding-box; 
+}
+.opening_top_section h2{
+ text-align: center; 
+
+}
+.opening_top_section p{
+    text-align: center; 
+    
+   }
+   .navlink_div{
+    text-align: center; 
+   display: flex;
+   justify-content: center;
+   padding-bottom: 2rem;
+   text-decoration: none;
+   font-size: 1.2rem;
+    
+   }
+   .opening_main_div{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+       flex-wrap: wrap;
+   }
+   .opening_sub_div{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 30px;
+    opacity: 1; 
+    width: 34rem !important;
+    height: 8rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+   }
+   .opening_sub_div p{
+    text-align: left;
+   }
+   @media screen and (max-width:800px){
+       /* why join section start here */
+.why_join_section{
+    padding: 2rem 1rem 3rem 1rem;
+}
+.why_join_content h2{
+    padding-bottom: 8rem;
+}
+.why_join_content p{
+    top: 100%;
+    width: 100%;
+    font-size: 1rem;
+    padding-bottom: 5rem;
+}
+/* ================team section start here=================== */
+.team_bg_section1{
+    padding: 2rem .5rem;
+    background: #EAEDEFD6 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+.team_bg_section1 h2{
+    text-align: center;
+    color: #4D4D4E;
+text-transform: capitalize;
+opacity: 1;
+padding-bottom: 2rem;
+}
+.team_top_heading_section1{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.team_boxes_div1{
+    position: relative;
+    /* width: 20rem;
+    height: 20rem; */
+    margin: .2rem;
+}
+.team_boxes_div1 img{
+    width:9rem;
+    height: 10rem;
+ 
+}
+
+/* =============perk and benifits section start here========== */
+.main_perks_section{
+    padding: 2rem .5rem;
+}
+.main_perks_section h2{
+   padding-bottom: 2rem;
+}
+.perks_benifits_div{
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+.benefits_images_div img{
+    width: 8.5rem;
+    height:8.5rem;
+}
+.benefits_images_div p{
+font-size: .8rem;
+}
+/* ===============opening section start here ===========*/
+.opening_top_section{
+    padding: 2rem 1rem;
+}
+
+   .opening_main_div{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+       flex-wrap: wrap;
+   }
+   .opening_sub_div{
+    width: 100%!important;
+   }
+   }

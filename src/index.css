@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  -ms-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
+body{
+  font-size: 62.5%;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Roboto', sans-serif;
+  color: #4D4D4E;
+  /* font-size: 4rem; */
+}
+p{
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main_container{
+   
+  overflow-x: hidden !important;
+  margin: 0 !important;
+    padding: 0 !important;
+}
+@media screen and (max-width:800px){
+  .main_container{
+   
+    overflow-x: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
