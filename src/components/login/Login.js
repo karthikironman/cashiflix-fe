@@ -1,5 +1,31 @@
 import React from 'react'
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
+import { toast } from 'react-toastify';
+import onboardingService from '../../services/onboarding.service';
+const API = new onboardingService();
+const handleSubmit = async (event) => {
+  event.preventDefault();
+  let phone = event.target[0].value;
+  let password = event.target[1].value;
+  try{
+    let loginData = await API.login(phone,password);
+    if(loginData.data.data.registered === false){
+      //phone not exist
+      toast('Phone number doesn"t exists, please signup first');
+    }else if(loginData.data.data.password === false){
+      toast('Wrong password, retry');
+      //wrong password
+    }else{
+      toast('LOGIN SUCCESS FULL');
+      let username = loginData.data.data.data[0].name;
+      toast('Welcome '+username);
+      //successfull
+    }
+    
+  }catch(err){
+    console.log('error',err)
+  }
+}
 const Login = () => {
   return (
     <>
@@ -16,14 +42,14 @@ const Login = () => {
         <div class='card-wrapper'>
           <h1 class='call-to-action'>Login</h1>
 
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className='field'>
-              <label for='username'>Name</label><br />
+              <label for='phone'> PHONE</label><br />
               <i className='bx bx-user'></i>
-              <input type='text'
-                id='username'
-                name='username'
-                required placeholder='Enter your Name'
+              <input type='number'
+                id='phone'
+                name='phone'
+                required placeholder='Enter your Phone Number'
                 spellcheck='false' />
             </div>
             {/* <div className='field'>
@@ -46,7 +72,7 @@ const Login = () => {
             </div>
             {/* <NavLink to="/Login">Forgot password?</NavLink> */}
             {/* <a href=''><span>Forgot password?</span></a> */}
-            <input type='submit' id='login-button' value='Sign Up' />
+            <input type='submit' id='login-button' value='Login' />
 
           </form>
 
@@ -59,7 +85,7 @@ const Login = () => {
     </div>
   </div> */}
 
-          <div className='sign-up'>
+            <div className='sign-up'>
             Dont have an account ? <br />
             {/* <a href=''>SIGN UP</a> */}
             <NavLink className="sign_in_up" to="/signup">Sign Up</NavLink>

@@ -16,5 +16,9 @@ class onboardingService {
         const url = base_address + "/api/v1/user";
         return apihelper.post(url,{name,phone,otp,password})
     }
+    login(phone,password){
+        const url = base_address + "/api/v1/login";
+        return apihelper.post(url,{phone,password})
+    }
 }
 export default onboardingService;
