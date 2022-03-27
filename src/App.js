@@ -18,6 +18,8 @@ import Signup from "./components/signup/Signup"
 import Navbar from "./components/header/Navbar"
 import Footer from "./components/footer/Footer"
 import PageScroll from './components/pagescroll/PageScroll';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 // import Footer2 from "./components/footer2/Footer2"
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom"
 
@@ -46,6 +48,7 @@ const App = () => {
        <Footer />
        {/* <Footer2 /> */}
      </Router>
+     <ToastContainer/>
     </>
   )
 }
