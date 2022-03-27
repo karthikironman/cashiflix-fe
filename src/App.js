@@ -14,7 +14,7 @@ import Blog from "./components/blog/Blog"
 import Career from "./components/career/Career"
 import Contact from "./components/contact/Contact"
 import Login from "./components/login/Login"
-import Signup from "./components/signup/Signup"
+import Signup from "./components/signup/signup.js"
 import Navbar from "./components/header/Navbar"
 import Footer from "./components/footer/Footer"
 import PageScroll from './components/pagescroll/PageScroll';

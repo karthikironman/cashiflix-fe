@@ -7,7 +7,7 @@ class A {
     }
     post(url, data) {
         return AXIOS.post(url, data, { 
-            headers: this.getHeaders(true),
+            headers: this.getHeaders(false),
             withCredentials: false}
           )
     }
